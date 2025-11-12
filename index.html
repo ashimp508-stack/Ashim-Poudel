@@ -1,11 +1,205 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ashim's 2nd Website</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ashim Poudel | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Hi</h1>
-    <p>Hello</p>
+
+  <!-- ===== HEADER / HERO ===== -->
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <div class="hero-avatar" aria-hidden="false">
+        <img src="../images/Ashim.jpg" alt="Ashim Poudel" class="hero-img" />
+      </div>
+      <h1>Hi, I'm <span>Ashim Poudel</span></h1>
+      <p class="subtitle">BSc. IT Student • IT Product Manager • Tech Enthusiast</p>
+      <a href="#contact" class="btn-primary">Get In Touch</a>
+    </div>
+  </header>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- ===== ABOUT ===== -->
+
+  <section id="story" class="section story">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="story-content">
+        <p>
+          I'm <strong>Ashim Poudel</strong>, a passionate <strong>BSc. IT student at Westcliff University</strong> 
+          who loves exploring technology, data analytics, and digital innovation. My goal is to use IT to solve
+          real-world business challenges and lead projects that make a difference.
+        </p>
+        <p>
+          I'm driven by curiosity, teamwork, and a deep interest in how systems connect people, processes, and progress.
+          Outside academics, I engage in community programs that promote digital literacy and rural awareness in Nepal.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section gradient-bg">
+    <h2>Technical Skills</h2>
+    <div class="skills-container">
+      <div class="skill">💻 HTML, CSS, JavaScript</div>
+      <div class="skill">🐍 Python & SAS (Data Analysis)</div>
+      <div class="skill">🛡 Networking & Cybersecurity</div>
+      <div class="skill">🗄 MySQL & Database Management</div>
+      <div class="skill">📊 Excel & Business Analytics</div>
+      <div class="skill">🎨 UI/UX Design (Figma)</div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <span class="dot"></span>
+        <h3>🎓 Westcliff University (Running)</h3>
+        <p><strong>Bachelor of Science in Information Technology</strong> (Expected 2027)</p>
+        <p>Focused on Networking, Programming, and Project Management.</p>
+      </div>
+      <div class="timeline-item">
+        <span class="dot"></span>
+        <h3>🏫 Global College of Management</h3>
+        <p><strong>Management Stream</strong> – Graduated with Distinction</p>
+        <p>Specialized in Computer Science, Accounting, and Mathematics.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="section gradient-bg">
+    <h2>Experience</h2>
+    <div class="experience-card">
+      <h3>Himalayan Guardian Nepal</h3>
+      <p><strong>IT Product Manager (2025–Present)</strong></p>
+      <ul>
+        <li>Leading IT product workflows and quality improvements.</li>
+        <li>Aligning digital tools with organizational goals.</li>
+        <li>Collaborating across departments for efficiency and growth.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project">
+        <img src="../images/himalayan.png" alt="Project 1">
+        <div class="project-info">
+          <h3>Himalayan Guardian Nepal</h3>
+          <p>Built and managed an integrated web platform for social initiatives.</p>
+        </div>
+      </div>
+      <div class="project">
+        <img src="../images/mandala.png" alt="Project 2">
+        <div class="project-info">
+          <h3>Hotel Mandala Norling Lords Prime</h3>
+          <p>Contributed to website design and online user experience.</p>
+        </div>
+      </div>
+      <div class="project">
+        <img src="../images/portfolio.png" alt="Project 3">
+        <div class="project-info">
+          <h3>Personal Portfolio</h3>
+          <p>Designed and developed a modern responsive personal website.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ACHIEVEMENTS ===== -->
+  <section id="achievements" class="section gradient-bg">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Led a community Health & IT Awareness Campaign in Tanahun.</li>
+      <li>Presented research on “Social Media Fraud and Digital Ethics.”</li>
+      <li>Recognized for leadership and collaboration in projects.</li>
+    </ul>
+  </section>
+
+  <!-- ===== CERTIFICATES ===== -->
+  <section id="certificates" class="section gradient-bg">
+    <h2>Certificates</h2>
+    <div class="certificates-grid">
+      <div class="certificate-card">
+        <div class="cert-icon">🎓</div>
+        <h3>Google IT Support Professional</h3>
+        <p>Coursera</p>
+      </div>
+      <div class="certificate-card">
+        <div class="cert-icon">☁️</div>
+        <h3>Microsoft Azure Fundamentals</h3>
+        <p>AZ-900</p>
+      </div>
+      <div class="certificate-card">
+        <div class="cert-icon">🛡️</div>
+        <h3>Cisco Introduction to Cybersecurity</h3>
+        <p>Cisco Networking Academy</p>
+      </div>
+      <div class="certificate-card">
+        <div class="cert-icon">🐍</div>
+        <h3>Python Certified Entry-Level Programmer</h3>
+        <p>PCEP</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact">
+    <h2>Get In Touch</h2>
+    <div class="contact-container">
+      <div class="contact-card">
+        <div class="contact-icon">📧</div>
+        <h3>Email</h3>
+        <a href="mailto:ashimp508@gmail.com">ashimp508@gmail.com</a>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">💼</div>
+        <h3>LinkedIn</h3>
+        <a href="#">linkedin.com/in/ashimpoudel</a>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">📍</div>
+        <h3>Location</h3>
+        <p>Chandragiri, Kathmandu | Raipur, Tanahun</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMMENTS ===== -->
+  <section id="comments" class="section comments">
+    <h2>💬 Leave a Comment</h2>
+    <p>Share your thoughts or suggestions about my work!</p>
+    <form class="comment-form">
+      <input type="text" placeholder="Your Name" required>
+      <textarea rows="5" placeholder="Write your comment here..." required></textarea>
+      <button type="submit">Post Comment</button>
+    </form>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>&copy; 2025 Ashim Poudel | All Rights Reserved</p>
+  </footer>
+
 </body>
 </html>
